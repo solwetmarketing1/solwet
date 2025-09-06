@@ -4,8 +4,7 @@ const body_parser = require("body-parser");
 const axios = require("axios");
 const { type } = require('express/lib/response');
 const whatsapp_access_token =
-    "EAAPwZBrcX8t4BPSNxTZBbatagarGbsEivgXqQIWBCkZBxdjUZBBVZCRZCdtfOKZBWIRCMEst5r8nHuXlZALAxBUNcTZCXpBFqn72OUB2eSVsLZANZBinPSvJQj4u3HzuBJsYb7mG2KKbb8rstrHtZBn5UWdJZCFe3Jiwsk9JlCmW0vw2oAhbVxl7lPbsEXV1ZBhxLAiFW5oKACvqtrAsvgehZB8BBVHrnPWPa2YLQZA4csZCuGNR1ElkZD"
-//const webhook_verify_token = "my-verify-token";
+    EAAPwZBrcX8t4BPeByxUHAImi1Y6Pg4CrK8ZBVIFlZA6uD1K5urKNZBUrfOzeCDFSepQvmcHVRcOxy30Yez75P1gZBs3e0cXzzY0ZCIVUN7NP4dpJQj2TJ0ZBTbyvXP3YBqggjqqYl1xwi7h0ZA07J5RydUX3GEbZC1JYwMMhhWVEPWxwDnwGAVuN3LrqAafOlkBdHXGyl3R2UjQajT1sdvUd3aoS5180ixMpoJW5fRLEDOAZDZD
 const webhook_verify_token ='wa_webhook';
 //const port = 3000;
 const port=process.env.port|| 3000;
