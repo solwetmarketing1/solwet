@@ -1,0 +1,30 @@
+{
+  "name": "solwet-app",
+  "version": "1.0.0",
+  "description": "webhook for solwet whatsapp api",
+  "keywords": [
+    "solwet"
+  ],
+  "license": "ISC",
+  "author": "sneha",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"echo\\\"error not specified\\\" && exit\"",
+    "start": "node server"
+  },
+"repository": {
+    "type": "git",
+    "url": "git+https://github.com/solwetmarketing1/solwetmarketing.git"
+
+  },
+
+  "dependencies": {
+    "axios": "^1.11.0",
+    "body-parser": "^2.2.0",
+    "dotenv": "^16.6.1",
+    "express": "^5.1.0",
+    "whatsapp": "^0.0.5-Alpha"
+ 
+  }
+}

@@ -1,0 +1,18 @@
+# Your WhatsApp phone number Id.
+WA_PHONE_NUMBER_ID=701512646381458
+# System user access token. Recommended: Do not use a temporary access token.
+CLOUD_API_ACCESS_TOKEN=EAADcF3tgq0YBO7Fp8Th1ZBzhiAiPZA2xKvr1EigAx9FqfBpgntR0vGQSyHghVTaZCtLVS7H0SDeRkxUpZCtIby1skxi0Ic8GsnB49f6ktgHhhoirfqjMOgyOJvx1Iv2LSlLjx7xQSDMYSH8MlZC7dSV1G7KSXNLgA9IIzC0BeEiWjMuGlYNyFKTGbw66g2bxFH32wGDgEPafdf4I2munIZCgTtr0jh2onrNsjiPiFeUxuY
+
+# Cloud API version number.
+CLOUD_API_VERSION=V22.0
+
+# Customize your incoming webhook listener endpoint. Path should be https://{host}/{WEBHOOK_ENDPOINT}.
+# A trailing slash is not added by default, so the variable should include that if it's required by your API gateway.Q
+WEBHOOK_ENDPOINT=(https://whatsapp-api-1-9g4j.onrender.com//webhook)
+
+# A custom verification token string to validate incoming webhook payloads.
+# Needs to match webhook configuration.
+WEBHOOK_VERIFICATION_TOKEN=wa_webhook
+
+# Override the default app listener port (optional & default 3000).
+LISTENER_PORT=3000

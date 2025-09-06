@@ -1,0 +1,8 @@
+FB.api(
+  '/me',
+  'GET',
+  {"fields":"id,name,email"},
+  function(response) {
+      // Insert your code here
+  }
+);
