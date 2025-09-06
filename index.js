@@ -4,8 +4,7 @@ const body_parser = require("body-parser");
 const axios = require("axios");
 const { type } = require('express/lib/response');
 const whatsapp_access_token =
-    EAAPwZBrcX8t4BPeByxUHAImi1Y6Pg4CrK8ZBVIFlZA6uD1K5urKNZBUrfOzeCDFSepQvmcHVRcOxy30Yez75P1gZBs3e0cXzzY0ZCIVUN7NP4dpJQj2TJ0ZBTbyvXP3YBqggjqqYl1xwi7h0ZA07J5RydUX3GEbZC1JYwMMhhWVEPWxwDnwGAVuN3LrqAafOlkBdHXGyl3R2UjQajT1sdvUd3aoS5180ixMpoJW5fRLEDOAZDZD
-const webhook_verify_token ='wa_webhook';
+    "EAAPwZBrcX8t4BPe3tZAkeAM34pV8C8TEfckNG2MJm4nWU9Jt5Wq4b6FfjSCcoler22uZBzSsJn9P8WCIAyZCc8fBTrfbcMPMUNH9HO1adeGIPa8VxlfXQbQrW9WJMjZBZBdZA4BUPk3wuQj9BfVQAdMrHa7JroKTmjGHrK9PlbzNfPXGn5Dc9SBMRatDzSIQgZDZD"
 //const port = 3000;
 const port=process.env.port|| 3000;
 const whatsappApiUrl = 'https://www.solwet.com/'; // Replace with your actual API URL
